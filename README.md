@@ -3,7 +3,7 @@
 > *Scientific measurement instrument for characterizing the flow behavior of powdered metal feedstock used in additive manufacturing — designed, additively manufactured, and CNC-machined during my Uniformity Labs tenure (May 2022 – May 2023).*
 
 ![Hero photo](images/00-hero-flow-device.jpg)
-*(placeholder)*
+*Prototype powder-flow measurement hardware with 3D-printed and transparent components. The device was built to turn powder behavior — flow, sticking, bridging, and angle of repose — into repeatable observations for additive-manufacturing process development.*
 
 ## What this is
 
