@@ -22,6 +22,30 @@ Powder flow behavior is one of the most important properties of additive manufac
 
 A measurement device that can be **partially built using the same LPBF process the powders are intended for** is a particularly elegant solution: it puts the test instrument and its sample on the same metallurgical footing.
 
+## Conformance to standard — ISO 4490
+
+The funnel measures powder flow rate by timing how long a specified mass of powder takes to discharge through a calibrated orifice — the same principle as the **Hall flowmeter** specified in **[ISO 4490](https://www.iso.org/standard/65824.html)** (*"Metallic powders — Determination of flow rate by means of a calibrated funnel"*) and equivalently **ASTM B213**. The Hall procedure releases a 50 g sample of metallic powder through a 2.5 mm orifice in a 60° cone funnel and reports flow time to the nearest 0.1 second.
+
+A Hall-flowmeter funnel is itself a commodity item. The reason a custom instrument was worth designing was not the funnel geometry alone but the test environment around it — repeatable mounting, instrumented sample handling, and the ability to manufacture the critical funnel surface using **the same LPBF process the production powders are intended for**.
+
+(For context: when a metal powder is too fine to flow through a Hall funnel — a common case with the finer cuts used in LPBF — the equivalent test uses a Carney funnel with a 5 mm orifice per **ASTM B964**. The same instrument architecture supports either funnel.)
+
+## Design and fabrication arc
+
+The device went through four phases in roughly six months — polymer prototype, LPBF metal print, CAM programming, CNC finishing.
+
+![Polymer-printed prototype assembly, September 2022](photos/2022-09-12%2010.38.35.jpg)
+*The first prototype was 3D-printed in polymer to validate the assembly geometry — bolt-circle layout, sample-window placement, and overall mass — before committing the design to metal.*
+
+![Metal 3D-printed parts off the LPBF build plate, December 2022](photos/2022-12-30%2011.44.19.jpg)
+*Three months later: the same housing geometry, this time printed in metal via Uniformity's own LPBF process. Threaded studs were printed integrated with one half of the assembly, eliminating a downstream tapping step.*
+
+![SolidWorks CAM toolpath setup for the funnel-finishing operations, March 2023](photos/2023-03-14%2010.36.07.jpg)
+*Programming the post-AM CNC operations in SolidWorks CAM — a multi-setup job on a Haas VF2 Mill: drilling, contour milling, and helical Z-level finishing on the conical bore (~50 minutes total cycle time).*
+
+![CNC-finished funnel, March 2023](photos/2023-03-17%2015.28.35.jpg)
+*The finished funnel — LPBF body, CNC-machined bore. The internal cone is the dimensionally-critical surface (per ISO 4490) and was machined to spec rather than left as-printed; the AM-to-CNC handoff happened three days after the CAM session.*
+
 ## What you'll find
 
 - **Brief narrative** of the design process and what made the project distinctive (forthcoming).
@@ -43,6 +67,7 @@ See [`NOTICE.md`](NOTICE.md). Original written content and photographs *I have t
 | Section | Status |
 |---|---|
 | Repo description, license, NOTICE, gitignore | ✓ done |
-| Design narrative | forthcoming |
+| ISO 4490 / Hall flowmeter framing | ✓ done |
+| Design and fabrication arc (4 photos) | ✓ done |
 | Hybrid AM + CNC reflection | forthcoming |
-| Curated photos | forthcoming (from `Engineering Portfolio/` 2022–2023 era) |
+| Curated photos | ✓ in place (more to add as needed) |
