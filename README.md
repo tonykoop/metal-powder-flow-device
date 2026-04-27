@@ -16,6 +16,8 @@ The device combined three things in one build:
 
 This repository is a **portfolio piece**. The device itself, all CAD/drawings, and the measurement methodology are the **proprietary property of Uniformity Labs.** See [`NOTICE.md`](NOTICE.md).
 
+Sister repositories: [`additive-manufacturing`](https://github.com/tonykoop/additive-manufacturing), [`tensile-testing`](https://github.com/tonykoop/tensile-testing), [`cnc`](https://github.com/tonykoop/cnc), and [`tumbler-oven`](https://github.com/tonykoop/tumbler-oven). Together they document the same Uniformity Labs powder-to-part workflow from powder conditioning through process validation.
+
 ## Why this work mattered
 
 Powder flow behavior is one of the most important properties of additive manufacturing feedstock. A powder that flows poorly produces poor builds — gaps in the recoated layer, density variations, defects. Characterizing flow behavior is therefore central to Uniformity's value proposition (ultra-low-porosity powders) and to QC of every batch of powder shipped.
