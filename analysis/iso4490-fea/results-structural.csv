@@ -1,0 +1,5 @@
+geometry,material,powder,sample_mass_g,p_max_pa,sigma_hoop_max_kpa,yield_safety_factor,delta_d_orifice_um,cone_half_angle_drift_deg,iso_tol_um,drift_frac_of_tolerance
+hall,alsi10mg,alsi10mg_powder,50.0,684.4828,4.419329,52044.1,2e-05,1.8211e-06,25.0,8e-07
+hall,316ss,316ss_powder,50.0,1356.7261,5.3103,38604.2,1.4e-05,-1.34e-08,25.0,5.7e-07
+carney,alsi10mg,alsi10mg_powder,150.0,1521.8563,16.930051,13585.3,0.000178,7.6526e-06,25.0,7.11e-06
+carney,316ss,316ss_powder,150.0,2075.2392,12.932111,15852.0,8.8e-05,1.9093e-06,25.0,3.52e-06

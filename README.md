@@ -53,6 +53,7 @@ The device went through four phases in roughly six months — polymer prototype,
 - **Brief narrative** of the design process and what made the project distinctive (forthcoming).
 - **Photos I took** during fabrication, where they document the work without exposing proprietary internals.
 - **Reflections** on combining additive manufacturing with traditional CNC machining in one part — when each approach is the right call.
+- **Exploratory FEA on a public-geometry cone** in [`analysis/iso4490-fea/`](analysis/iso4490-fea/) with the portfolio writeup at [`reflections/exploratory-fea-iso4490.md`](reflections/exploratory-fea-iso4490.md). This study uses **only** the publicly-specified ISO 4490:2018 / ASTM B964 funnel dimensions and published-handbook material properties for AlSi10Mg and 316 SS — explicitly **no Uniformity geometry, no employer IP** — to demonstrate thermal- and structural-FEA methodology on a part a GitHub reader can verify against the public standard.
 
 ## What you won't find
 
