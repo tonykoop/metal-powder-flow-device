@@ -1,0 +1,5 @@
+geometry,material,t_pow_c,t_amb_c,h_in_w_per_m2k,h_out_w_per_m2k,t_wall_mean_c,t_lumped_balance_c,delta_t_avg_k,delta_d_orifice_um,cone_half_angle_drift_deg,iso_tol_um,drift_frac_of_tolerance
+hall,alsi10mg,60.0,20.0,200.0,8.0,58.4615,58.4615,38.4615,2.019231,-0.0,25.0,0.080769
+hall,316ss,60.0,20.0,200.0,8.0,58.4615,58.4615,38.4615,1.538462,0.0,25.0,0.061538
+carney,alsi10mg,60.0,20.0,200.0,8.0,58.4615,58.4615,38.4615,4.038462,-0.0,25.0,0.161538
+carney,316ss,60.0,20.0,200.0,8.0,58.4615,58.4615,38.4615,3.076923,-0.0,25.0,0.123077
