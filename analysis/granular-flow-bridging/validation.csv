@@ -1,0 +1,5 @@
+gate_id,description,status,evidence_required,notes
+W001,Wolfram source review,open,Execute wolfram-starter.wl in Wolfram Desktop or Cloud,L2 evidence only — source not yet executed
+W002,Beverloo parameters validated against literature,open,Compare C and k constants against Brown&Richards 1970 or Nedderman 1992,Pending literature cross-check
+W003,ISO 4490 geometry confirmed,open,Verify orifice diameter values against current ISO 4490 standard,Standard access required
+W004,LPBF powder parameters verified,open,Confirm rho_b and d for target powder grade,No proprietary measurement data in this model
