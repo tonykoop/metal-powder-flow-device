@@ -178,7 +178,7 @@ At 2.44 g/s, a 50 g Hall test would take approximately **20 s** — consistent w
 the published Hall flow range of 15–25 s/50g for good-quality LPBF 316L powder.
 
 This rough agreement supports the applicability of the Beverloo model in this regime.
-The Wolfram file `wolfram-starter.wl` computes this across the full range of ISO
+The Wolfram file `metal-powder-flow-device-analysis-granular-flow-bridging-starter.wl` computes this across the full range of ISO
 4490 orifice diameters with plots.
 
 ---

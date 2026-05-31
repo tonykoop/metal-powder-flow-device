@@ -37,7 +37,7 @@ any such proprietary information.
 
 ## Wolfram Source Status
 
-The file `wolfram-starter.wl` in this directory contains Wolfram Language source
+The file `metal-powder-flow-device-analysis-granular-flow-bridging-starter.wl` in this directory contains Wolfram Language source
 code that implements the Beverloo model and produces flow-rate plots. This source
 has **not been executed** in this context.
 
@@ -63,7 +63,7 @@ publicly specified geometry values from that standard.
 |------|-------------|
 | `README.md` | This file — scope, status, problem statement |
 | `design.md` | Analytical model: Beverloo equation, arch-blocking threshold, intermittency regime |
-| `wolfram-starter.wl` | Wolfram Language source for Beverloo plots (source-only, not executed) |
+| `metal-powder-flow-device-analysis-granular-flow-bridging-starter.wl` | Wolfram Language source for Beverloo plots (source-only, not executed) |
 | `validation.csv` | Open validation gates before this packet can advance to L2 |
 | `risks.md` | Proprietary boundary, model limitations, open risks |
 
