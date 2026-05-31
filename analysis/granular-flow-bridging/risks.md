@@ -23,7 +23,7 @@ No device drawings, no measured flow data, no internal process parameters.
 
 ## Source-Only Wolfram
 
-The file `wolfram-starter.wl` has not been executed. No plot outputs, no
+The file `metal-powder-flow-device-analysis-granular-flow-bridging-starter.wl` has not been executed. No plot outputs, no
 computed result tables, and no numeric claims from this file have been verified
 by execution.
 
